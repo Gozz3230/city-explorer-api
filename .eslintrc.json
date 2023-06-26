@@ -1,49 +1,49 @@
 {
     "extends": "eslint:recommended",
     "parserOptions": {
-      "ecmaVersion": 8
+    "ecmaVersion": 8
     },
     "env": {
-      "es6": true,
-      "jest": true,
-      "node": true
+    "es6": true,
+    "jest": true,
+    "node": true
     },
     "rules": {
-      "eol-last": "error",
-      "eqeqeq": [
+    "eol-last": "error",
+    "eqeqeq": [
         "error",
         "always"
-      ],
-      "indent": [
+    ],
+    "indent": [
         "error",
         2
-      ],
-      "new-cap": "warn",
-      "no-console": "off",
-      "no-multi-spaces": [
+    ],
+    "new-cap": "warn",
+    "no-console": "off",
+    "no-multi-spaces": [
         "warn",
         {
-          "exceptions": {
+        "exceptions": {
             "VariableDeclarator": true
-          }
         }
-      ],
-      "no-redeclare": [
+        }
+    ],
+    "no-redeclare": [
         "error",
         {
-          "builtinGlobals": true
+        "builtinGlobals": true
         }
-      ],
-      "no-template-curly-in-string": "error",
-      "no-trailing-spaces": "warn",
-      "no-undefined": "off",
-      "quotes": [
+    ],
+    "no-template-curly-in-string": "error",
+    "no-trailing-spaces": "warn",
+    "no-undefined": "off",
+    "quotes": [
         "warn",
         "single",
         {
-          "allowTemplateLiterals": true
+        "allowTemplateLiterals": true
         }
-      ],
-      "semi": "error"
+    ],
+    "semi": "error"
     }
-  }
+}

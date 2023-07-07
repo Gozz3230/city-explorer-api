@@ -37,7 +37,6 @@ app.get('/weather', (request, response, next)=> {
     let lat = request.query.lat;
     let lon = request.query.lon;
     let searchQuery = request.query.searchQuery;
-
     let foundQuery = data.find(city => city.city_name === searchQuery);
     if (foundQuery) {
       let cityWeather = foundQuery.data.map((date) => {
